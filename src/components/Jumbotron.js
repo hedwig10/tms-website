@@ -1,17 +1,20 @@
 import React from "react";
+import { Jumbotron, Button } from 'reactstrap';
+import "../components/jumbotron-style.css";
 
-function Jumbotron() {
+const Example = (props) => {
   return (
-    <div className= "jumbotron">
-      <h1>Trade Management solutions</h1>
-      <p>
-        <strong>Our "Upstream Approach" to the fulfillment process allows us to eliminate any disturbances within the supply chain before they happen. This prevents any unforeseen compliance issues that can cause delays and unnecessary expenses, which ensures a clean supply chain from origin to destination.</strong>
-      </p>
-       
-
+    <div>
+      <Jumbotron>
+        <h1 className="display-3">Trade Management Solutions</h1>
+        <p className="lead">Transportation Management Made Easy</p>
+        <hr className="my-2" />
+      <p className="lead">
+          <Button color="primary">Learn More</Button>
+        </p>
+      </Jumbotron>
     </div>
   );
-}
+};
 
-
-export default Jumbotron;
+export default Example;
