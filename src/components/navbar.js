@@ -39,24 +39,24 @@ function Navbar() {
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Dropdown
+              Our Services
             </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
               <a className="dropdown-item" href="#">
                 Action
               </a>
               <a className="dropdown-item" href="#">
-                Another action
+                Our Company
               </a>
               <div className="dropdown-divider" />
               <a className="dropdown-item" href="#">
-                Something else here
+                Tracking
               </a>
             </div>
           </li>
           <li className="nav-item">
             <a className="nav-link disabled" href="#">
-              Disabled
+              Resources
             </a>
           </li>
         </ul>
