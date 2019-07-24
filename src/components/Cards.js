@@ -1,7 +1,11 @@
-import React from "react";
+import React, {Component} from "react";
 import Card from '../Card/Card';
 
 class Cards extends Component {
+    constructor(props){
+        super(props);
+        this.state={};
+    }
     render() {
         return (<div className="container-fluid d-flex justify-content-center">
             <div className="row">
@@ -14,10 +18,11 @@ class Cards extends Component {
                 <div className="col-md-4">
                     <Card />
                 </div>
+                
             </div>
         </div>
         );
     }
 
 };
-export default Cards
+export default Cards;

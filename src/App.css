@@ -1,5 +1,5 @@
-.jumbotron{
-  background:rgb(71, 145, 255, .7);
+.jumbotron {
+  background-color:rgb(71, 145, 255, .7);
 
 }
 
@@ -8,4 +8,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
- 
+
+nav {
+  background:red;
+}

@@ -5,7 +5,7 @@ const Card = props =>{
     return (    
         <div className="card text-center">
             <div className="overflow">
-                <img src={img1} alt="image1"/>
+                <img src={img1} alt="image1" className="card-img-top"/>
             </div>
             <div className="card-body text-dark">
                 <h4 className="card-title">Destination Services</h4>
@@ -13,6 +13,7 @@ const Card = props =>{
             </div>
 
         </div>
+        
     );
 }
 
