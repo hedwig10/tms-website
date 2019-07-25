@@ -3,6 +3,10 @@ import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Cards from "./components/Cards";
 import Body from "./components/Body";
+import { Map, GoogleApiWrapper } from 'google-maps-react';
+
+
+
 import '../src/App.css';
 
 
@@ -14,7 +18,7 @@ function App() {
       <Jumbotron />
       <Cards />
       <Body />
-    </div>
+         </div>
   );
 }
 
