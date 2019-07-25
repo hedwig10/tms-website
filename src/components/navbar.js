@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        Navbar
+        Trade
       </a>
       <button
         className="navbar-toggler"
@@ -26,7 +26,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Link
+              Tracking
             </a>
           </li>
           <li className="nav-item dropdown">
