@@ -8,7 +8,7 @@ import '../src/App.css';
 
 function App() {
   return (
-    <div >
+    <div>
       <Navbar />
       <Jumbotron />
       <Cards />

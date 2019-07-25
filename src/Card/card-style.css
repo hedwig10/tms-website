@@ -1,8 +1,17 @@
 
+
 .card:hover{
     box-shadow:5px 10px 20px 20px rgb(238, 155, 2)!important;
 }
 
 .card-body{
     padding: 1rem 0 !important;
+    text: ;
+}
+
+.card-img-top{
+    transform:scale(1);
+}
+.card-img-top:hover{
+    transform:scale(1.8);
 }

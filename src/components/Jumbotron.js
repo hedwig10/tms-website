@@ -2,6 +2,8 @@ import React from "react";
 import {Button } from 'reactstrap';
 import "../components/jumbotron-style.css";
 
+
+
 const Jumbotron = (props) => {
   return (
     <div className="Jumbotron">
