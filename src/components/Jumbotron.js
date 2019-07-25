@@ -8,7 +8,7 @@ const Jumbotron = (props) => {
   return (
     <div className="Jumbotron">
         <h1 className="display-3">Trade Management Solutions</h1>
-        <p className="lead">Transportation Management Made Easy</p>
+        <h2 className="lead">Transportation Management Made Easy</h2>
         <hr className="my-2" />
       <p className="lead">
           <Button color="primary">Learn More</Button>

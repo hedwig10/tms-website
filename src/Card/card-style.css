@@ -1,17 +1,24 @@
 
 
-.card:hover{
-    box-shadow:5px 10px 20px 20px rgb(238, 155, 2)!important;
-}
 
 .card-body{
+    background:rgb(157, 239, 245, .2);
+    padding-top:40rem;
     padding: 1rem 0 !important;
-    text: ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:normal;
+    font-weight:700;
+    font-size:28px;
+   
+    
+}
+.card:hover{
+    box-shadow:5px 10px 20px 15px rgb(206, 176, 9)!important;
 }
 
 .card-img-top{
     transform:scale(1);
 }
 .card-img-top:hover{
-    transform:scale(1.8);
+    transform:scale(1.2);
 }
