@@ -4,7 +4,8 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        Trade
+        TMS
+        logo
       </a>
       <button
         className="navbar-toggler"

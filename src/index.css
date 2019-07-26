@@ -21,3 +21,9 @@ footer{
   font-size:700;
   position:static;
 }
+
+
+  .iframe {
+    box-shadow: 0 0 8px 8px white inset;
+  }
+  
