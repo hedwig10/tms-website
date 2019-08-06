@@ -2,5 +2,7 @@ body{
   background:url("./tmsbck.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

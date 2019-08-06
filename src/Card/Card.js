@@ -13,7 +13,7 @@ const Card = props => {
                 maybe a video of the service
                 </p>
                 
-                <a href="#" className="btn btn-outline-success">
+                <a href="http://www.tms-lp.net/tms/origin-services" target="blank" className="btn btn-outline-success">
                     Learn More
             </a>
 
